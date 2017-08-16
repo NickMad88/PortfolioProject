@@ -1,34 +1,34 @@
 #wrapper{
     max-width: 970px;
-    background-color: lightgreen;
+    background-color: #fafafa;
 }
 #header{
     height: 75px;
     width: 970px;
-    background-color: lightgray;
+    background-color: #fafafa;
 }
 #header-left{
     height: 75px;
     width: 480px; 
-    background-color: #F87575;
+    background-color: #fafafa;
     display: inline-block;
     vertical-align: top;
 }
 #header-right{
     height: 75px;
     width: 485px; 
-    background-color: #7563B7;
+    background-color: #fafafa;
     display: inline-block;
     vertical-align: top;    
 }
 #content{
     width: 970px;
-    background-color: maroon;
+    background-color: #68535d;
 }
 #intro-section{
     height: 367px;
     width: 970px;
-    background-color: rgba(137, 32, 32, 0.91);
+    background-color: #68535d;
 }
 #profilepic{
     height: 300px;
@@ -43,7 +43,7 @@
     height: 350px;
     width: 460px;
     margin: 6px;
-    background-color: #4F9554;
+    background-color: #e3d7e2;
     border: 4px solid gray;
     display: inline-block;
     vertical-align: top;
@@ -57,39 +57,144 @@
 #abouttitle{
     width: 460px;
     height: 50px;
-    background-color: blue;
+    background-color: #9a99a2;
     display: inline-block;
     vertical-align: top;
+    font: "Times New Roman";
+    font-size: 18pt;
+    color: white;
 }
 #lamode{
     width: 310px;
-    margin: 4px;
+    height: 555px;
+    margin: 1px;
     display: inline-block;
     vertical-align: top;
-    background-color: blue;
+    background-color: #e3d7e2;
+    border: 2px solid gray;
 }
 #family{
     width: 310px;
-    margin: 4px;
-    
+    height: 555px;    
+    margin: 1px;
+    border: 2px solid gray;
     display: inline-block;
     vertical-align: top;
-    background-color: #53BE46;
+    background-color: #e3d7e2;
     
 }
 #fiveEleven{
     width: 310px;
-    margin: 4px;
-    
+    height: 555px;    
+    margin: 1px;
     display: inline-block;
     vertical-align: top;
-    background-color: #CA6DC3;
+    background-color: #e3d7e2;
+    border: 2px solid gray;
     
 }
 .silvertitle{
+    color: white;
+    margin: 0px;
+    vertical-align: center;
+    padding-top: 11px;
+    font-family: "Times New Roman";
+    font-size: 18pt;
+    backgroun
+}
+#lamodepic{
+    width: 310px;
+    height: 150px;
+    vertical-align: top;
+}
+#familypic{
+    width: 310px;
+    height: 150px;
+    vertical-align: top;
+}
+#fiveElevenpic{
+    width: 310px;
+    height: 150px;
+    vertical-align: top;
+}
+.iconpic{
+    width: 50px;
+    height: 50px;
+}
+#lamode-title{
+    background-color: #9a99a2;
     width: 310px;
     height: 50px;
-    background-color: #8F8FB4;
-    display: inline-block;
+    color: white;
     vertical-align: top;
+}
+#family-title{
+    background-color: #9a99a2;
+    width: 310px;
+    height: 50px;
+}
+#fiveEleven-title{
+    background-color: #9a99a2;
+    width: 310px;
+    height: 50px;
+}
+#nametitle{
+    font-size: 20pt;
+    font-family: "Comic Sans MS";
+    vertical-align: middle; 
+}
+#slogan{
+    font-size: 20pt;
+    font-family: "Comic Sans MS";
+    vertical-align: middle; 
+}
+.footerpic{
+    height: 20px;
+    width: 20px;
+}
+#footerbottom{
+    padding-left: 250px;
+}
+#footertop{
+    padding-left: 325px;
+}
+.titles{
+    color: white;
+    margin: 0px;
+    vertical-align: center;
+    padding-top: 11px;
+    font-family: "Times New Roman";
+    font-size: 18pt;
+}
+#fiveEleven-technologies{
+    background-color: #9a99a2;
+}
+#family-technologies{
+    background-color: #9a99a2;
+    margin-top: 35px;
+    
+    
+}
+#lamode-technologies{
+    background-color: #9a99a2;
+    margin-top: 70px;
+}
+#lamode-icons{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;  
+}
+#family-icons{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;    
+}
+#fiveEleven-icons{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;  
+ 
 }
